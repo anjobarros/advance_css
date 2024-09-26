@@ -4,7 +4,7 @@
   "description": "a repository for my [Advanced CSS and Sass: Flexbox, Grid, Animations and More!] course",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass sass/main.scss css/main.css",
+    "compile:sass": "sass sass/**/*.scss:css/",
     "watch:sass": "sass --watch sass:css"
   },
   "keywords": [],
