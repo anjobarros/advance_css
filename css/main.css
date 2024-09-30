@@ -97,12 +97,37 @@ body {
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: 1.6rem;
+}
+.paragraph:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
 .u-center-text {
   text-align: center;
 }
 
 .u-margin-bottom-8 {
   margin-bottom: 8rem;
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 0.8rem;
 }
 
 .btn:link, .btn:visited {
@@ -151,10 +176,13 @@ body {
   animation-fill-mode: backwards;
 }
 
+.btn-text:link, .btn-text:visited {
+  color: #7ed56f;
+}
+
 .row {
   width: 100%;
   max-width: 114rem;
-  background-color: #eee;
   margin: 0 auto;
 }
 .row:not(:last-child) {
@@ -166,7 +194,6 @@ body {
   clear: both;
 }
 .row [class^=col-] {
-  background-color: orange;
   float: left;
 }
 .row [class^=col-]:not(:last-child) {

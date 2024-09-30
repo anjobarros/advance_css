@@ -54,3 +54,10 @@
     }
 
 }
+
+.btn-text{
+    &:link,
+    &:visited{
+        color: $color-primary;
+    }
+}
